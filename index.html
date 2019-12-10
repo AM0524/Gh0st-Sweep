@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>!Ghost sweep!</title>
+			<link rel="stylesheet" href="style.css" />
+	</head>
+	<body> 
+		<div class="narrow-col"> 
+			<div class="box red" onclick="makeOpaque(this)" id="box1">
+				<image src="image/transparent_boo.png" onclick="changePicture(this)" class="cursor" id="ghost1">
+				</div>
+			<div class="box orange" onclick="makeOpaque(this)" id="box2">
+				<image src="image/transparent_boo.png" onclick="changePicture(this)" class="cursor" id="ghost2">
+			</div>
+			 
+				<div class="box yellow" onclick="makeOpaque(this)" id="box3">
+				<image src="image/transparent_boo.png" onclick="changePicture(this)" class="cursor" id="ghost3">
+				</div>
+		</div>
+		
+		<div class="narrow-col2">
+			<div class="Big_box clear" onclick="makeOpaque(this)" class="contain-image" class="cursor" id="box4">
+				<image src="image/Click.PNG">
+					</div>
+			<div class="Row_box pink"  onclick="resetAll()" id="box5">
+				<image src="image/Reset.png" class="cursor" class="contain-image" >
+					</div>
+			</div>	
+			
+		<div class="narrow-col">
+			<div class="box green" onclick="makeOpaque(this)" class="cursor" id="box6">
+				<image src="image/transparent_boo.png"  onclick="changePicture(this)" class="cursor" id="ghost4">
+					</div>
+			<div class="box light_blue" onclick="makeOpaque(this)" id="box7">
+				<image src="image/transparent_boo.png" onclick="changePicture(this)" class="cursor" id="ghost5">
+					</div>
+			<div class="box purple" onclick="makeOpaque(this)" id="box8">
+				<image src="image/transparent_boo.png" onclick="changePicture(this)" class="cursor" id="ghost6">
+					</div>
+		</div>	
+			<script src="script.js"></script>
+		<audio src="audio/boo-laugh-tone.wav" type="audio/mp4" id="boolaugh"></audio>
+	</body>	
+</html>
